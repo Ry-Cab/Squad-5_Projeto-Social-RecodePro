@@ -1,0 +1,112 @@
+#secao1{
+  margin-top: 40px;
+  height: 500px;
+  background-image: url('./img/trescaneiros-ibura-deCima.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: cover;
+  text-align: center;
+  padding-top: 75px;
+  background-blend-mode: darken;
+}
+
+.texto{
+  font-size: 40px;
+  color: white;
+  text-shadow: 0px 0px 7px rgb(61, 0, 0);
+  margin-top: 100px;
+  font-weight: bold;
+}
+
+.sobrenos{
+  font-family: 'Heavitas';
+  font-size: 90px;
+  color: white;
+  text-shadow: 0px 0px 10px rgb(61, 0, 0);
+}
+
+#secao2{
+  height: 800px;
+}
+
+#tituloDepoimento{
+}
+
+#tituloDepoimento h1{
+  font-family: 'Heavitas';
+  font-size: 90px;
+  text-align: center;
+  padding-top: 65px;
+}
+
+#boxDepoimento{
+  height: 400px;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#boxInternoDepoimento{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 200px;
+  width: 800px;
+  margin-bottom: 25px;
+}
+
+#imagemDepoimento{
+  display: block;
+  height: 150px;
+  width: 150px;
+  background-color: black;
+}
+
+#textos{
+  width: 620px;
+  height: 170px;
+  padding: 10px;
+}
+
+#nomeDepo{
+  margin-bottom: 10px;
+}
+
+#textoDepo{
+  font-size: 16pt;
+}
+
+/*---------------- formulario contato -----------------------*/
+
+.faleConosco{
+  text-align: center;
+  font-family: 'Heavitas';
+  font-size: 35pt;
+}
+
+form input{
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px gray solid;
+  font-size: 8pt;
+  background-color: #ffffe6;
+}
+
+form textarea{
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #ffffe6;
+}
+
+form input[type=submit]{
+  cursor: pointer;
+  border: 0px;
+  background-color: #dbdbb1;
+  width: 30%;
+}
+
+form input[type=submit]:hover{
+  background-color: #FFDE59;
+}
