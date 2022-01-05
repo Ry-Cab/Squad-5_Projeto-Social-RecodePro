@@ -1,0 +1,79 @@
+@model IEnumerable<site_projetosocial_squad5.Models.ProdutoServico>
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.codigo_produtoServico)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.tipo_produtoServico)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.nome_produtoServico)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.descricao_produtoServico)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.preco_produtoServico)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.nomeNegocio_autonoma)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FK_id_autonoma)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.codigo_produtoServico)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.tipo_produtoServico)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.nome_produtoServico)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.descricao_produtoServico)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.preco_produtoServico)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.nomeNegocio_autonoma)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FK_id_autonoma)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.id_produtoServico">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.id_produtoServico">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.id_produtoServico">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+</body>
+</html>

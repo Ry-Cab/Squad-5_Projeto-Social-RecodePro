@@ -10,10 +10,14 @@ namespace site_projetosocial_squad5.Data
 
         }
 
-        public DbSet<Produto> Produtos{get;set;}
+    
+        public DbSet<Autonoma> Autonoma {get;set;}
 
-        public DbSet<Servico> Servicos {get;set;}
+        public DbSet<Afiliada> Afiliada {get;set;}
 
-        public DbSet<site_projetosocial_squad5.Models.Cadastro> Cadastro { get; set; }
-    }
+        public DbSet<ProdutoServico> ProdutoServico{get;set;}
+
+        public DbSet<Afiliacao> Afiliacao {get;set;}
+
+         }
 }

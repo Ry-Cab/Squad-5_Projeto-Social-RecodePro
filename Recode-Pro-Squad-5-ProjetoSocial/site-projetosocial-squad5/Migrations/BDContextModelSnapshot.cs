@@ -19,181 +19,184 @@ namespace site_projetosocial_squad5.Migrations
                 .HasAnnotation("ProductVersion", "5.0.8")
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-            modelBuilder.Entity("site_projetosocial_squad5.Models.Cadastro", b =>
+            modelBuilder.Entity("site_projetosocial_squad5.Models.Afiliacao", b =>
                 {
-                    b.Property<int>("id_cadastro")
+                    b.Property<int>("id_afiliacao")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<string>("bairro_cadastro")
-                        .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
+                    b.Property<int?>("Afiliadaid_afiliada")
+                        .HasColumnType("int");
 
-                    b.Property<string>("categoriaNegocio_cadastro")
-                        .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
+                    b.Property<int>("FK_id_afiliada")
+                        .HasColumnType("int");
 
-                    b.Property<string>("cep_cadastro")
-                        .IsRequired()
-                        .HasMaxLength(9)
-                        .HasColumnType("nvarchar(9)");
+                    b.Property<int>("FK_id_produtoServico")
+                        .HasColumnType("int");
 
-                    b.Property<string>("cidade_cadastro")
-                        .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
+                    b.Property<int?>("ProdutoServicoid_produtoServico")
+                        .HasColumnType("int");
 
-                    b.Property<string>("email_cadastro")
+                    b.Property<string>("codigo_produtoServico")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("id_afiliacao");
+
+                    b.HasIndex("Afiliadaid_afiliada");
+
+                    b.HasIndex("ProdutoServicoid_produtoServico");
+
+                    b.ToTable("Afiliacao");
+                });
+
+            modelBuilder.Entity("site_projetosocial_squad5.Models.Afiliada", b =>
+                {
+                    b.Property<int>("id_afiliada")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("email_afiliada")
                         .IsRequired()
                         .HasMaxLength(255)
                         .HasColumnType("nvarchar(255)");
 
-                    b.Property<string>("endereco_cadastro")
-                        .IsRequired()
-                        .HasMaxLength(255)
-                        .HasColumnType("nvarchar(255)");
-
-                    b.Property<string>("idade_cadastro")
-                        .IsRequired()
-                        .HasMaxLength(10)
-                        .HasColumnType("nvarchar(10)");
-
-                    b.Property<string>("nomeNegocio_cadastro")
-                        .IsRequired()
-                        .HasMaxLength(100)
-                        .HasColumnType("nvarchar(100)");
-
-                    b.Property<string>("nome_cadatro")
+                    b.Property<string>("nome_afiliada")
                         .IsRequired()
                         .HasMaxLength(75)
                         .HasColumnType("nvarchar(75)");
 
-                    b.Property<string>("telefoneNegocio_cadastro")
+                    b.Property<string>("senha_afiliada")
+                        .IsRequired()
+                        .HasMaxLength(9)
+                        .HasColumnType("nvarchar(9)");
+
+                    b.Property<string>("sobrenome_afiliada")
+                        .IsRequired()
+                        .HasMaxLength(75)
+                        .HasColumnType("nvarchar(75)");
+
+                    b.Property<string>("telefone_afiliada")
                         .IsRequired()
                         .HasMaxLength(20)
                         .HasColumnType("nvarchar(20)");
 
-                    b.Property<string>("telefone_cadastro")
-                        .IsRequired()
-                        .HasMaxLength(20)
-                        .HasColumnType("nvarchar(20)");
+                    b.HasKey("id_afiliada");
 
-                    b.HasKey("id_cadastro");
-
-                    b.ToTable("Cadastro");
+                    b.ToTable("Afiliada");
                 });
 
-            modelBuilder.Entity("site_projetosocial_squad5.Models.Produto", b =>
+            modelBuilder.Entity("site_projetosocial_squad5.Models.Autonoma", b =>
                 {
-                    b.Property<int>("id_produto")
+                    b.Property<int>("id_autonoma")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<int>("FK_id_cadastro")
+                    b.Property<string>("email_autonoma")
+                        .IsRequired()
+                        .HasMaxLength(255)
+                        .HasColumnType("nvarchar(255)");
+
+                    b.Property<string>("nomeNegocio_autonoma")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<string>("nome_autonoma")
+                        .IsRequired()
+                        .HasMaxLength(75)
+                        .HasColumnType("nvarchar(75)");
+
+                    b.Property<string>("senha_autonoma")
+                        .IsRequired()
+                        .HasMaxLength(9)
+                        .HasColumnType("nvarchar(9)");
+
+                    b.Property<string>("sobrenome_autonoma")
+                        .IsRequired()
+                        .HasMaxLength(75)
+                        .HasColumnType("nvarchar(75)");
+
+                    b.Property<string>("telefone_autonoma")
+                        .IsRequired()
+                        .HasMaxLength(20)
+                        .HasColumnType("nvarchar(20)");
+
+                    b.HasKey("id_autonoma");
+
+                    b.ToTable("Autonoma");
+                });
+
+            modelBuilder.Entity("site_projetosocial_squad5.Models.ProdutoServico", b =>
+                {
+                    b.Property<int>("id_produtoServico")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<int>("FK_id_autonoma")
                         .HasColumnType("int");
 
-                    b.Property<int>("FK_nome_negocio")
-                        .HasColumnType("int");
+                    b.Property<string>("codigo_produtoServico")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("descricao_produto")
+                    b.Property<string>("descricao_produtoServico")
                         .HasMaxLength(510)
                         .HasColumnType("nvarchar(510)");
 
-                    b.Property<int?>("id_cadastro1")
+                    b.Property<int?>("id_autonoma1")
                         .HasColumnType("int");
 
-                    b.Property<int?>("nomeNegocio_cadastroid_cadastro")
-                        .HasColumnType("int");
+                    b.Property<string>("nomeNegocio_autonoma")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
 
-                    b.Property<string>("nome_produto")
+                    b.Property<string>("nome_produtoServico")
                         .IsRequired()
                         .HasMaxLength(60)
                         .HasColumnType("nvarchar(60)");
 
-                    b.Property<decimal>("preco_produto")
+                    b.Property<decimal>("preco_produtoServico")
                         .HasColumnType("decimal(18,2)");
 
-                    b.HasKey("id_produto");
-
-                    b.HasIndex("id_cadastro1");
-
-                    b.HasIndex("nomeNegocio_cadastroid_cadastro");
-
-                    b.ToTable("Produtos");
-                });
-
-            modelBuilder.Entity("site_projetosocial_squad5.Models.Servico", b =>
-                {
-                    b.Property<int>("id_servico")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<int>("FK_id_cadastro")
-                        .HasColumnType("int");
-
-                    b.Property<int>("FK_nome_negocio")
-                        .HasColumnType("int");
-
-                    b.Property<string>("descricao_servico")
-                        .HasMaxLength(510)
-                        .HasColumnType("nvarchar(510)");
-
-                    b.Property<int?>("id_cadastro1")
-                        .HasColumnType("int");
-
-                    b.Property<int?>("nomeNegocio_cadastroid_cadastro")
-                        .HasColumnType("int");
-
-                    b.Property<string>("nome_servico")
+                    b.Property<string>("tipo_produtoServico")
                         .IsRequired()
-                        .HasMaxLength(60)
-                        .HasColumnType("nvarchar(60)");
+                        .HasColumnType("nvarchar(max)");
 
-                    b.Property<float>("preco_produto")
-                        .HasColumnType("real");
+                    b.HasKey("id_produtoServico");
 
-                    b.HasKey("id_servico");
+                    b.HasIndex("id_autonoma1");
 
-                    b.HasIndex("id_cadastro1");
-
-                    b.HasIndex("nomeNegocio_cadastroid_cadastro");
-
-                    b.ToTable("Servicos");
+                    b.ToTable("ProdutoServico");
                 });
 
-            modelBuilder.Entity("site_projetosocial_squad5.Models.Produto", b =>
+            modelBuilder.Entity("site_projetosocial_squad5.Models.Afiliacao", b =>
                 {
-                    b.HasOne("site_projetosocial_squad5.Models.Cadastro", "id_cadastro")
+                    b.HasOne("site_projetosocial_squad5.Models.Afiliada", "Afiliada")
                         .WithMany()
-                        .HasForeignKey("id_cadastro1");
+                        .HasForeignKey("Afiliadaid_afiliada");
 
-                    b.HasOne("site_projetosocial_squad5.Models.Cadastro", "nomeNegocio_cadastro")
+                    b.HasOne("site_projetosocial_squad5.Models.ProdutoServico", "ProdutoServico")
                         .WithMany()
-                        .HasForeignKey("nomeNegocio_cadastroid_cadastro");
+                        .HasForeignKey("ProdutoServicoid_produtoServico");
 
-                    b.Navigation("id_cadastro");
+                    b.Navigation("Afiliada");
 
-                    b.Navigation("nomeNegocio_cadastro");
+                    b.Navigation("ProdutoServico");
                 });
 
-            modelBuilder.Entity("site_projetosocial_squad5.Models.Servico", b =>
+            modelBuilder.Entity("site_projetosocial_squad5.Models.ProdutoServico", b =>
                 {
-                    b.HasOne("site_projetosocial_squad5.Models.Cadastro", "id_cadastro")
+                    b.HasOne("site_projetosocial_squad5.Models.Autonoma", "id_autonoma")
                         .WithMany()
-                        .HasForeignKey("id_cadastro1");
+                        .HasForeignKey("id_autonoma1");
 
-                    b.HasOne("site_projetosocial_squad5.Models.Cadastro", "nomeNegocio_cadastro")
-                        .WithMany()
-                        .HasForeignKey("nomeNegocio_cadastroid_cadastro");
-
-                    b.Navigation("id_cadastro");
-
-                    b.Navigation("nomeNegocio_cadastro");
+                    b.Navigation("id_autonoma");
                 });
 #pragma warning restore 612, 618
         }

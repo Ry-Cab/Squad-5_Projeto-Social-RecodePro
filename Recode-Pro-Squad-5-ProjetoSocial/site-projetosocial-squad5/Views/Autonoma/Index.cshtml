@@ -1,0 +1,73 @@
+@model IEnumerable<site_projetosocial_squad5.Models.Autonoma>
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.nome_autonoma)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.sobrenome_autonoma)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.email_autonoma)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.senha_autonoma)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.telefone_autonoma)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.nomeNegocio_autonoma)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.nome_autonoma)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.sobrenome_autonoma)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.email_autonoma)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.senha_autonoma)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.telefone_autonoma)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.nomeNegocio_autonoma)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.id_autonoma">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.id_autonoma">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.id_autonoma">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+</body>
+</html>
