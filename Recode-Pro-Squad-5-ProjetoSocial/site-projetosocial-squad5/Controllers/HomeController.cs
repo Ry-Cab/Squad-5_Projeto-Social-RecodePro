@@ -23,7 +23,17 @@ namespace site_projetosocial_squad5.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        
+        public IActionResult Contato()
+        {
+            return View();
+        }
+
+        public IActionResult Somos()
+        {
+            return View();
+        }
+        public IActionResult Admin()
         {
             return View();
         }

@@ -415,7 +415,6 @@ C:\Users\Sweetener\Documents\Repositorio-Squad5\Recode-Pro-Squad-5-ProjetoSocial
 C:\Users\Sweetener\Documents\Repositorio-Squad5\Recode-Pro-Squad-5-ProjetoSocial\site-projetosocial-squad5\obj\Debug\net5.0\site-projetosocial-squad5.TagHelpers.output.cache
 C:\Users\Sweetener\Documents\Repositorio-Squad5\Recode-Pro-Squad-5-ProjetoSocial\site-projetosocial-squad5\obj\Debug\net5.0\site-projetosocial-squad5.RazorCoreGenerate.cache
 C:\Users\Sweetener\Documents\Repositorio-Squad5\Recode-Pro-Squad-5-ProjetoSocial\site-projetosocial-squad5\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
-C:\Users\Sweetener\Documents\Repositorio-Squad5\Recode-Pro-Squad-5-ProjetoSocial\site-projetosocial-squad5\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
 C:\Users\Sweetener\Documents\Repositorio-Squad5\Recode-Pro-Squad-5-ProjetoSocial\site-projetosocial-squad5\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Users\Sweetener\Documents\Repositorio-Squad5\Recode-Pro-Squad-5-ProjetoSocial\site-projetosocial-squad5\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\Sweetener\Documents\Repositorio-Squad5\Recode-Pro-Squad-5-ProjetoSocial\site-projetosocial-squad5\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
@@ -449,3 +448,6 @@ C:\Users\Sweetener\Documents\Repositorio-Squad5\Recode-Pro-Squad-5-ProjetoSocial
 C:\Users\Sweetener\Documents\Repositorio-Squad5\Recode-Pro-Squad-5-ProjetoSocial\site-projetosocial-squad5\obj\Debug\net5.0\Razor\Views\ProdutoServico\Details.cshtml.g.cs
 C:\Users\Sweetener\Documents\Repositorio-Squad5\Recode-Pro-Squad-5-ProjetoSocial\site-projetosocial-squad5\obj\Debug\net5.0\Razor\Views\ProdutoServico\Edit.cshtml.g.cs
 C:\Users\Sweetener\Documents\Repositorio-Squad5\Recode-Pro-Squad-5-ProjetoSocial\site-projetosocial-squad5\obj\Debug\net5.0\Razor\Views\ProdutoServico\Index.cshtml.g.cs
+C:\Users\Sweetener\Documents\Repositorio-Squad5\Recode-Pro-Squad-5-ProjetoSocial\site-projetosocial-squad5\obj\Debug\net5.0\Razor\Views\Home\Contato.cshtml.g.cs
+C:\Users\Sweetener\Documents\Repositorio-Squad5\Recode-Pro-Squad-5-ProjetoSocial\site-projetosocial-squad5\obj\Debug\net5.0\Razor\Views\Home\Somos.cshtml.g.cs
+C:\Users\Sweetener\Documents\Repositorio-Squad5\Recode-Pro-Squad-5-ProjetoSocial\site-projetosocial-squad5\obj\Debug\net5.0\Razor\Views\Home\Admin.cshtml.g.cs
