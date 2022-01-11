@@ -1,5 +1,6 @@
 @model IEnumerable<site_projetosocial_squad5.Models.ProdutoServico>
 
+
 @{
     ViewData["Title"] = "EmpoDelas - Produtos e Serviços";
 }
@@ -30,6 +31,10 @@
     <p class="card-text">@item.descricao_produtoServico</p>
     <p class="card-text">@item.preco_produtoServico</p>
     <a asp-action="Details" asp-route-id="@item.id_produtoServico">Ver Mais
+    </a>
+    <a asp-action="Contatar" asp-controller="Autonoma" asp-route-id="@item.FK_id_autonoma">Contatar
+    </a>
+    <a href="https://forms.gle/TYqWfbTQcKdGdQcN6" target="_blank">Afiliar-Se
     </a>
   </div>
 </div>

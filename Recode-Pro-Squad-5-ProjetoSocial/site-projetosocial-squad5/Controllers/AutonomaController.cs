@@ -43,6 +43,27 @@ namespace site_projetosocial_squad5.Controllers
             return View(autonoma);
         }
 
+        
+         public async Task<IActionResult> Contatar(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var autonoma = await _context.Autonoma
+                .FirstOrDefaultAsync(m => m.id_autonoma == id);
+
+            if (autonoma == null)
+            {
+                return NotFound();
+            }
+
+            return View(autonoma);
+        }
+
+
+
         // GET: Autonoma/Create
         public IActionResult Create()
         {

@@ -451,3 +451,4 @@ C:\Users\Sweetener\Documents\Repositorio-Squad5\Recode-Pro-Squad-5-ProjetoSocial
 C:\Users\Sweetener\Documents\Repositorio-Squad5\Recode-Pro-Squad-5-ProjetoSocial\site-projetosocial-squad5\obj\Debug\net5.0\Razor\Views\Home\Contato.cshtml.g.cs
 C:\Users\Sweetener\Documents\Repositorio-Squad5\Recode-Pro-Squad-5-ProjetoSocial\site-projetosocial-squad5\obj\Debug\net5.0\Razor\Views\Home\Somos.cshtml.g.cs
 C:\Users\Sweetener\Documents\Repositorio-Squad5\Recode-Pro-Squad-5-ProjetoSocial\site-projetosocial-squad5\obj\Debug\net5.0\Razor\Views\Home\Admin.cshtml.g.cs
+C:\Users\Sweetener\Documents\Repositorio-Squad5\Recode-Pro-Squad-5-ProjetoSocial\site-projetosocial-squad5\obj\Debug\net5.0\Razor\Views\Autonoma\Contatar.cshtml.g.cs
