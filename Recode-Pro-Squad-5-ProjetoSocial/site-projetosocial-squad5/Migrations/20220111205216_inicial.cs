@@ -2,7 +2,7 @@
 
 namespace site_projetosocial_squad5.Migrations
 {
-    public partial class Inicial : Migration
+    public partial class inicial : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
