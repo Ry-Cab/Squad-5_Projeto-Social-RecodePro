@@ -1,0 +1,39 @@
+@model site_projetosocial_squad5.Models.Afiliacao
+
+@{
+    ViewData["Title"] = "[Admin] Criar Afiliação";
+}
+
+
+<h4>Afiliacao</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="codigo_produtoServico" class="control-label"></label>
+                <input asp-for="codigo_produtoServico" class="form-control" />
+                <span asp-validation-for="codigo_produtoServico" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FK_id_afiliada" class="control-label"></label>
+                <input asp-for="FK_id_afiliada" class="form-control" />
+                <span asp-validation-for="FK_id_afiliada" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FK_id_produtoServico" class="control-label"></label>
+                <input asp-for="FK_id_produtoServico" class="form-control" />
+                <span asp-validation-for="FK_id_produtoServico" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

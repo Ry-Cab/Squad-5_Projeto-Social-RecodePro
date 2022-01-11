@@ -1,0 +1,172 @@
+*{
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  /*-------------------CODIGO-----------*/
+  
+  @font-face{
+    font-family: 'JushleyShine';
+    src: url('./fontes/JushleyShine.otf');
+  }
+  
+  @font-face{
+    font-family: 'Oswald-SemiBold';
+    src: url('./fontes/Oswald-SemiBold.ttf');
+  }
+  
+  @font-face{
+    font-family: 'accid';
+    src: url('./fontes/accid.ttf');
+  }
+  
+  @font-face{
+    font-family: 'Black_Emerald';
+    src: url('./fontes/Black_Emerald.ttf');
+  }
+  
+  @font-face{
+    font-family: 'Fontjek';
+    src: url('./fontes/Fontjek.otf');
+  }
+  
+  @font-face{
+    font-family: 'MyLove';
+    src: url('./fontes/MyLove.otf');
+  }
+  
+  @font-face{
+    font-family: 'Heavitas';
+    src: url('./fontes/Heavitas.ttf');
+  }
+  
+  #header1{
+    background-color: #FFDE59;
+  }
+
+  #header{
+    background-color: #FFDE59;
+  }
+  
+  .imagemMulher{
+    margin-left: 20px;
+    width: auto;
+    height: auto;
+  }
+  
+  .nomeLogo{
+    margin-right: 350px;
+  }
+  
+  .imagemMulher img{
+     
+    margin-right:-20px ;
+    width: 200px;
+    margin-top: 10px;
+    
+  }
+  
+  .texto-logo {
+    font-family: 'Fontjek';
+    font-size: 60px;
+    color: #e71111;
+  }
+
+  .texto-logo:hover {
+    color: #940707;
+    font-style: none;
+    text-decoration: none;
+  }
+  
+  /*-------------------CODIGO-----------*/
+  
+ #menu{
+    background-color: #FFDE59;
+    width: 100%;
+    height: 50%;
+    margin: 0px;
+    padding: 0px;
+ } 
+  nav{
+    height: auto;
+  }
+  
+  nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none; 
+    margin-left: 75px; 
+  }
+  
+  nav > ul > li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+  }
+  
+  li > a{
+    text-decoration: none;
+    font-family: 'Oswald-SemiBold';
+    font-size: 17pt;
+    white-space: nowrap;
+  }
+  
+  li > a:hover{
+    color: crimson;
+    text-decoration: none;
+    font-weight: bold;
+    border-top: rgb(255, 70, 70) solid 3px;
+  }
+  
+  footer {
+    margin-top: 2%;
+      width:100%;
+    background-color: #FFDE59;
+    text-align: center;
+    padding: 30px 0px;
+  }
+  
+  .container-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .container-body {
+    text-align: center;
+    
+  }
+  
+  h1 {
+    font-family: open, sans-serif;
+    font-size: 50px;
+  }
+  
+
+/* ------------------------ MEDIA QUERY --------------------------*/
+
+
+  @media (max-width: 600px){
+    .texto-logo {
+      font-size: 40px;
+    }
+
+    li > a{
+      font-size: 12pt;
+    }
+  }
+
+  @media (max-width: 936px){
+    .texto-logo {
+      font-size: 30px;
+    }
+        
+    li > a{
+      font-size: 12pt;
+    }
+
+  }

@@ -1,0 +1,47 @@
+@model IEnumerable<site_projetosocial_squad5.Models.Afiliacao>
+
+@{
+    ViewData["Title"] = "[Admin] Afiliações";
+}
+
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.codigo_produtoServico)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FK_id_afiliada)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FK_id_produtoServico)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.codigo_produtoServico)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FK_id_afiliada)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FK_id_produtoServico)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.id_afiliacao">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.id_afiliacao">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.id_afiliacao">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+

@@ -1,0 +1,32 @@
+@model site_projetosocial_squad5.Models.Autonoma
+
+<style>
+    main{
+        text-align: center;
+    }
+    .a_contato{
+        padding: 20px;
+        background-color: greenyellow;
+        color: black;
+        margin-top: 10px;
+        border-radius: 10px;
+    }
+    
+</style>
+
+<main>
+    <address>
+    <h1>@Html.DisplayFor(model => model.nomeNegocio_autonoma)</h1>
+    <p>Contato: <strong>@Html.DisplayFor(model => model.telefone_autonoma)</strong></p>
+    </address>
+    <hr class="hr_contato">
+    <p>Clique nesse botão abaixo para falar com a vendedora no Whatsapp</p>
+    <a href="https://api.whatsapp.com/send?phone=@Html.DisplayFor(model => model.telefone_autonoma)" target="_blank" class="a_contato">Contatar</a> 
+    <hr>
+    <a asp-controller="ProdutoServico" asp-action="Index" style="display: block;">Voltar</a>  
+</main>
+
+
+
+
+
