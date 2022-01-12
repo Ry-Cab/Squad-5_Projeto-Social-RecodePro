@@ -1,210 +1,199 @@
 /*----------------------SEÇÃO 1   /   HOME - SOBRE NÓS--------------------*/
 
 #secao1{
-    margin-top: 40px;
-    padding: 70px 0px;
-    background-image: url('./img/trescaneiros-ibura-deCima.jpg');
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-attachment: cover;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: auto;
-  }
-  
+  margin-top: 30px;
+  padding: 70px 0px;
+  background-image: url('./img/trescaneiros-ibura-deCima.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: cover;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+
+.texto{
+  font-size: 15px;
+  color: white;
+  text-shadow: 0px 0px 7px rgb(61, 0, 0);
+  margin-top: 40px;
+  font-weight: bold;
+}
+
+.sobrenos{
+  font-family: 'Heavitas';
+  font-size: 25px;
+  text-align: center;
+  color: white;
+  text-shadow: 0px 0px 10px rgb(61, 0, 0);
+}
+
+/*----------------------FINAL SEÇÃO 1 --------------------*/
+/*-----------------DIV BOTÃO CADASTRE-SE  /  HOME -----------------*/
+#MainCadastrar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: auto;
+  padding: 80px 0px;
+}
+
+#MainCadastrar h3{
+  font-family: 'Oswald-SemiBold';
+  font-size: 30px;
+  text-align: center;
+  font-style: italic;
+}
+
+#fraseMain{
+  padding: 20px;
+}
+
+#botaoCadastro{
+  text-align: center;
+  padding: 20px;
+  background-color: #ff5757;
+  height: 70px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#botaoCadastro:hover{
+  background-color: #cc0707;
+}
+
+#botaoCadastro a{
+  font-family: 'Heavitas';
+  text-decoration: none;
+  font-size: 24pt;
+  color: white;
+}
+
+/*-----------------FIM DIV BOTÃO CADASTRE-SE -----------------*/
+/*-------------------SEÇÃO 2  /  DEPOIMENTO - HOME-------------------*/
+
+#secao2{
+  height: auto;
+  margin-top: 20px;
+  margin-bottom: 150px;
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+#boxDepoimento{
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#tituloDepo{
+  height: 80px;
+  border-bottom: 1px rgb(187, 9, 9) inset;
+}
+
+#tituloDepo h1{
+  font-family: Impact, Haettenschweiler, 'accid', sans-serif;
+  font-size: 50px;
+  text-align: center;
+  padding-top: 10px;
+  color:rgb(141, 4, 4);
+}
+
+#textoDepo{
+  font-size: 15pt;
+  padding: 10px;
+
+}
+
+#textoDepo p{
+  font-size: 12pt;
+  text-align: justify;
+}
+
+
+/*-----------------FIM SEÇÃO 2  /  DEPOIMENTO - HOME-----------------*/
+/*------------------- formulario contato  - CONTATO ---------------------*/
+
+
+.faleConosco{
+  text-align: center;
+  font-family: 'Heavitas';
+  font-size: 35pt;
+}
+
+form input{
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px gray solid;
+  font-size: 8pt;
+  background-color: #ffffe6;
+}
+
+form textarea{
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #ffffe6;
+}
+
+form input[type=submit]{
+  cursor: pointer;
+  border: 0px;
+  background-color: #dbdbb1;
+  width: 30%;
+}
+
+form input[type=submit]:hover{
+  background-color: #FFDE59;
+}
+
+
+
+
+
+/*-------------------- MEDIAS QUERY --------------------*/
+
+@media (max-width: 320px){
   .texto{
-    font-family: sans-serif;
-    font-size: 15px;
-    color: white;
-    text-shadow: 0px 0px 7px rgb(61, 0, 0);
-    margin-top: 40px;
-    font-weight: bold;
+    font-size: 10px;
   }
   
   .sobrenos{
-    font-family: 'Oswald-SemiBold';
-    font-size: 25px;
-    text-align: center;
-    color: white;
-    text-shadow: 0px 0px 10px rgb(250, 8, 8);
-    margin-top: 30px;
+    font-size: 20px;
   }
-  .card-group{
-    margin-top: 30px;
-    text-align: center;
+}
+
+@media (min-width: 600px){
+  .texto{
+    font-size: 20px;
   }
   
-  /*----------------------FINAL SEÇÃO 1 --------------------*/
-  /*-----------------DIV BOTÃO CADASTRE-SE  /  HOME -----------------*/
-  #MainCadastrar{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: auto;
-    padding: 80px 0px;
+  .sobrenos{
+    font-size: 45px;
   }
-  
-  #MainCadastrar h3{
-    font-family: 'Oswald-SemiBold';
+}
+
+@media (min-width: 936px){
+  .texto{
     font-size: 30px;
-    text-align: center;
   }
   
-  #fraseMain{
-    padding: 20px;
+  #secao1{
+    height: 700px;
   }
-  
-  #botaoCadastro{
-    text-align: center;
-    padding: 20px;
-    background-color: #ff5757;
-    height: 70px;
-    width: 300px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+  .sobrenos{
+    font-size: 65px;
   }
-  
-  #botaoCadastro:hover{
-    background-color: #cc0707;
-  }
-  
-  #botaoCadastro a{
-    font-family: 'Heavitas';
-    text-decoration: none;
-    font-size: 24pt;
-    color: white;
-  }
-  
-  /*-----------------FIM DIV BOTÃO CADASTRE-SE -----------------*/
-  /*-------------------SEÇÃO 2  /  DEPOIMENTO - HOME-------------------*/
-  
-  #secao2{
-    height: auto;
-    margin-top: 20px;
-  }
-  
-  #tituloDepoimento h1{
-    font-family: 'Heavitas';
-    font-size: 90px;
-    text-align: center;
-    padding-top: 10px;
-  }
-  
+
   #boxDepoimento{
-    height: 400px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    width: 850px;
   }
-  
-  #boxInternoDepoimento{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 200px;
-    width: 800px;
-    margin-bottom: 25px;
-  }
-  
-  #imagemDepoimento{
-    display: block;
-    height: 150px;
-    width: 150px;
-    background-color: black;
-  }
-  
-  #textos{
-    width: 620px;
-    height: 170px;
-    padding: 10px;
-  }
-  
-  #nomeDepo{
-    margin-bottom: 10px;
-  }
-  
-  #textoDepo{
-    font-size: 16pt;
-  }
-  
-  /*-----------------FIM SEÇÃO 2  /  DEPOIMENTO - HOME-----------------*/
-  /*------------------- formulario contato  - CONTATO ---------------------*/
-  
-  
-  .faleConosco{
-    text-align: center;
-    font-family: 'Heavitas';
-    font-size: 35pt;
-  }
-  
-  form input{
-    padding: 10px;
-    border-radius: 5px;
-    border: 1px gray solid;
-    font-size: 8pt;
-    background-color: #ffffe6;
-  }
-  
-  form textarea{
-    padding: 10px;
-    border-radius: 5px;
-    background-color: #ffffe6;
-  }
-  
-  form input[type=submit]{
-    cursor: pointer;
-    border: 0px;
-    background-color: #dbdbb1;
-    width: 30%;
-  }
-  
-  form input[type=submit]:hover{
-    background-color: #FFDE59;
-  }
-
-
-
-
-
-  /*-------------------- MEDIAS QUERY --------------------*/
-
-  @media (max-width: 320px){
-    .texto{
-      font-size: 10px;
-    }
-    
-    .sobrenos{
-      font-size: 20px;
-    }
-  }
-
-  @media (min-width: 600px){
-    .texto{
-      font-size: 20px;
-    }
-    
-    .sobrenos{
-      font-size: 45px;
-    }
-  }
-
-  @media (min-width: 936px){
-    .texto{
-      font-size: 30px;
-    }
-    
-    #secao1{
-      height: 700px;
-    }
-
-    .sobrenos{
-      font-size: 65px;
-    }
-
-  }
+}

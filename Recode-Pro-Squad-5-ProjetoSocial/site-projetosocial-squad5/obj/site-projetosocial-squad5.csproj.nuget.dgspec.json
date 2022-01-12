@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\je_ss\\OneDrive\\Área de Trabalho\\Projeto Mulheres\\Squad-5_Projeto-Social-RecodePro\\Recode-Pro-Squad-5-ProjetoSocial\\site-projetosocial-squad5\\site-projetosocial-squad5.csproj": {}
+    "C:\\Users\\PC\\Desktop\\pasta repositori git\\Squad-5_Projeto-Social-RecodePro\\Recode-Pro-Squad-5-ProjetoSocial\\site-projetosocial-squad5\\site-projetosocial-squad5.csproj": {}
   },
   "projects": {
-    "C:\\Users\\je_ss\\OneDrive\\Área de Trabalho\\Projeto Mulheres\\Squad-5_Projeto-Social-RecodePro\\Recode-Pro-Squad-5-ProjetoSocial\\site-projetosocial-squad5\\site-projetosocial-squad5.csproj": {
+    "C:\\Users\\PC\\Desktop\\pasta repositori git\\Squad-5_Projeto-Social-RecodePro\\Recode-Pro-Squad-5-ProjetoSocial\\site-projetosocial-squad5\\site-projetosocial-squad5.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\je_ss\\OneDrive\\Área de Trabalho\\Projeto Mulheres\\Squad-5_Projeto-Social-RecodePro\\Recode-Pro-Squad-5-ProjetoSocial\\site-projetosocial-squad5\\site-projetosocial-squad5.csproj",
+        "projectUniqueName": "C:\\Users\\PC\\Desktop\\pasta repositori git\\Squad-5_Projeto-Social-RecodePro\\Recode-Pro-Squad-5-ProjetoSocial\\site-projetosocial-squad5\\site-projetosocial-squad5.csproj",
         "projectName": "site-projetosocial-squad5",
-        "projectPath": "C:\\Users\\je_ss\\OneDrive\\Área de Trabalho\\Projeto Mulheres\\Squad-5_Projeto-Social-RecodePro\\Recode-Pro-Squad-5-ProjetoSocial\\site-projetosocial-squad5\\site-projetosocial-squad5.csproj",
-        "packagesPath": "C:\\Users\\je_ss\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\je_ss\\OneDrive\\Área de Trabalho\\Projeto Mulheres\\Squad-5_Projeto-Social-RecodePro\\Recode-Pro-Squad-5-ProjetoSocial\\site-projetosocial-squad5\\obj\\",
+        "projectPath": "C:\\Users\\PC\\Desktop\\pasta repositori git\\Squad-5_Projeto-Social-RecodePro\\Recode-Pro-Squad-5-ProjetoSocial\\site-projetosocial-squad5\\site-projetosocial-squad5.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PC\\Desktop\\pasta repositori git\\Squad-5_Projeto-Social-RecodePro\\Recode-Pro-Squad-5-ProjetoSocial\\site-projetosocial-squad5\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\je_ss\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -75,7 +77,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
