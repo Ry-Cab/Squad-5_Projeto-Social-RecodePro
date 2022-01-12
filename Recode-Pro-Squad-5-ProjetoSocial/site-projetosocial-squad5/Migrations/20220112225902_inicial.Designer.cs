@@ -10,7 +10,7 @@ using site_projetosocial_squad5.Data;
 namespace site_projetosocial_squad5.Migrations
 {
     [DbContext(typeof(BDContext))]
-    [Migration("20220111205216_inicial")]
+    [Migration("20220112225902_inicial")]
     partial class inicial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

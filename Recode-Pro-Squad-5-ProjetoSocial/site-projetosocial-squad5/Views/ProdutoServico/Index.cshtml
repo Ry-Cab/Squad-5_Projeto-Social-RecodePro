@@ -30,14 +30,11 @@
     <h6 class="card-subtitle mb-2 text-muted">@item.nomeNegocio_autonoma</h6>
     <p class="card-text">@item.descricao_produtoServico</p>
     <p class="card-text">@item.preco_produtoServico</p>
-    <div class="btn-group" role="group" aria-label="Exemplo básico">
-  <button type="button" class="btn btn-primary"> <a class="a_produtos" asp-action="Details" asp-route-id="@item.id_produtoServico">Ver Mais
-    </a></button>
-  <button type="button" class="btn btn-primary"><a class="a_produtos" asp-action="Contatar" asp-controller="Autonoma" asp-route-id="@item.FK_id_autonoma">Contatar
-    </a></button>
-  <button type="button" class="btn btn-primary"><a class="a_produtos" href="https://forms.gle/TYqWfbTQcKdGdQcN6" target="_blank">Afiliar-Se
-    </a></button>
-</div>    
+    
+    <a class="a_produtos" asp-action="Details" asp-route-id="@item.id_produtoServico">Ver Mais </a>|
+    <a class="a_produtos" asp-action="Contatar" asp-controller="Autonoma" asp-route-id="@item.FK_id_autonoma">Contatar </a>|
+    <a class="a_produtos" href="https://forms.gle/TYqWfbTQcKdGdQcN6" target="_blank">Afiliar-Se</a>
+  
   </div>
 </div>
 }
