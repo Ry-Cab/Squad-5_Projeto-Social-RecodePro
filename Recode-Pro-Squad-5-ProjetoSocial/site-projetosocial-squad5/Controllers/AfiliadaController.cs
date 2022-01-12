@@ -49,6 +49,11 @@ namespace site_projetosocial_squad5.Controllers
             return View();
         }
 
+        public IActionResult Resumo()
+        {
+            return View();
+        }
+
         // POST: Afiliada/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
@@ -60,7 +65,7 @@ namespace site_projetosocial_squad5.Controllers
             {
                 _context.Add(afiliada);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction("Resumo");
             }
             return View(afiliada);
         }

@@ -1,30 +1,35 @@
 @{
     ViewData["Title"] = "EmpoDelas - Admin";
 }
+<style>
+    *{
+        font-family: sans-serif;
+    }
+</style>
 
-<div class="container row">
-    
+
+<main class="container">
+    <h1>Área do Administrador</h1>
+    <div class="row">
     <div class="col">
-        <li class="nav-item">
-                <a class="nav-link text-dark" asp-area="" asp-controller="Afiliada" asp-action="Create">Cadastro<br> Afiliada</a>
-        </li>
+        <h1>Cadastrar</h1>
+        <ul>
+            <li><a class="nav-link text-dark" asp-area="" asp-controller="Afiliada" asp-action="Create">Cadastro Afiliada</a></li>
+            <li><a class="nav-link text-dark" asp-area="" asp-controller="Autonoma" asp-action="Create">Cadastro Autonôma</a></li>
+            <li><a class="nav-link text-dark" asp-area="" asp-controller="Afiliacao" asp-action="Create">Cadastrar Afiliação</a></li>
+            <li><a class="nav-link text-dark" asp-area="" asp-controller="ProdutoServico" asp-action="Create">Cadastrar<br>  Produto ou Serviço</a></li>
+        </ul>
     </div>
     <div class="col">
-        <li class="nav-item">
-                <a class="nav-link text-dark" asp-area="" asp-controller="Autonoma" asp-action="Create">Cadastro<br> Autonôma</a>
-        </li>
+        <h1>Visualizar</h1>
+        <ul>
+            <li><a class="nav-link text-dark" asp-area="" asp-controller="Afiliada" asp-action="Index">Afiliadas Cadastradas</a></li>
+            <li><a class="nav-link text-dark" asp-area="" asp-controller="Autonoma" asp-action="Index">Autonômas Cadastradas</a></li>
+            <li><a class="nav-link text-dark" asp-area="" asp-controller="Afiliacao" asp-action="Index">Afiliações</a></li>
+            <li><a class="nav-link text-dark" asp-area="" asp-controller="ProdutoServico" asp-action="Index">Produtos e Serviços cadastrados</a></li>
+        </ul>
     </div>
+    </div>
+</main>
+        
 
-    <div class="col">
-        <li class="nav-item">
-                <a class="nav-link text-dark" asp-area="" asp-controller="Afiliacao" asp-action="Create">Cadastrar<br>  Afiliação</a>
-        </li>
-    </div>    
-
-    <div class="col">
-        <li class="nav-item">
-                <a class="nav-link text-dark" asp-area="" asp-controller="ProdutoServico" asp-action="Create">Cadastrar<br>  Produto ou Serviço</a>
-        </li>
-    </div>         
-
-</div>

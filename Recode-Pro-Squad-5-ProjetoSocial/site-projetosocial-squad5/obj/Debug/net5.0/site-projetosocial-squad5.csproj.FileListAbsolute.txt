@@ -1814,3 +1814,5 @@ C:\Users\PC\Desktop\pasta repositori git\Squad-5_Projeto-Social-RecodePro\Recode
 C:\Users\PC\Desktop\pasta repositori git\Squad-5_Projeto-Social-RecodePro\Recode-Pro-Squad-5-ProjetoSocial\site-projetosocial-squad5\obj\Debug\net5.0\ref\site-projetosocial-squad5.dll
 C:\Users\PC\Desktop\pasta repositori git\Squad-5_Projeto-Social-RecodePro\Recode-Pro-Squad-5-ProjetoSocial\site-projetosocial-squad5\obj\Debug\net5.0\site-projetosocial-squad5.pdb
 C:\Users\PC\Desktop\pasta repositori git\Squad-5_Projeto-Social-RecodePro\Recode-Pro-Squad-5-ProjetoSocial\site-projetosocial-squad5\obj\Debug\net5.0\site-projetosocial-squad5.genruntimeconfig.cache
+C:\Users\Sweetener\Documents\Repositorio-Squad5\Recode-Pro-Squad-5-ProjetoSocial\site-projetosocial-squad5\obj\Debug\net5.0\Razor\Views\Afiliada\Resumo.cshtml.g.cs
+C:\Users\Sweetener\Documents\Repositorio-Squad5\Recode-Pro-Squad-5-ProjetoSocial\site-projetosocial-squad5\obj\Debug\net5.0\Razor\Views\Autonoma\Resumo.cshtml.g.cs
