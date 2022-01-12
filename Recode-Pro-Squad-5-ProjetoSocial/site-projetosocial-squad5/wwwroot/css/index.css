@@ -56,7 +56,7 @@
 #botaoCadastro{
   text-align: center;
   padding: 20px;
-  background-color: #ff5757;
+  background-color: #e71111;
   height: 70px;
   width: 300px;
   display: flex;
@@ -81,7 +81,6 @@
 #secao2{
   height: auto;
   margin-top: 20px;
-  margin-bottom: 150px;
   background-color: #f1f1f1;
   padding: 10px;
 }
@@ -96,15 +95,16 @@
 
 #tituloDepo{
   height: 80px;
-  border-bottom: 1px rgb(187, 9, 9) inset;
+  
 }
 
 #tituloDepo h1{
-  font-family: Impact, Haettenschweiler, 'accid', sans-serif;
-  font-size: 50px;
-  text-align: center;
-  padding-top: 10px;
-  color:rgb(141, 4, 4);
+  
+    font-family: 'Heavitas';
+    font-size: 80px;
+    text-align: center;
+    padding-top: 10px;
+    color: black;
 }
 
 #textoDepo{
@@ -113,9 +113,10 @@
 
 }
 
-#textoDepo p{
-  font-size: 12pt;
+#textoDepo p {
+  /* font-size: 12pt; */
   text-align: justify;
+  padding: 40px;
 }
 
 

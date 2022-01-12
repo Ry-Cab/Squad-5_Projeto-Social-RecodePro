@@ -1,9 +1,16 @@
-.textoProdutos{
+
+
+.tituloProdutos{
+    text-align: center;
     font-family: 'Heavitas';
-    font-size: 90px;
-    color: black;
+    font-size: 53px;
+    color: rgb(26, 24, 24);
   }
   
+  .card{
+    margin: 10px;
+  }
+
   .d-flex{
     display: flex;
     align-items: center;
@@ -11,7 +18,10 @@
     margin-top: 100px;
     margin-bottom: 100px;
   }
-  
+  .a_produtos{
+    color: white;
+    font-size: 15px;
+  }
   .textoPromocao{
     font-family: 'Heavitas';
     font-size: 60px;
