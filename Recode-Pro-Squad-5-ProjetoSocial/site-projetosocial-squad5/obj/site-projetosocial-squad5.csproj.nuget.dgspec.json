@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\OneDrive\\Área de Trabalho\\ProjetoSocial\\Squad-5_Projeto-Social-RecodePro\\Recode-Pro-Squad-5-ProjetoSocial\\site-projetosocial-squad5\\site-projetosocial-squad5.csproj": {}
+    "C:\\Users\\PC\\Source\\Repos\\Squad-5_Projeto-Social-RecodePro\\Recode-Pro-Squad-5-ProjetoSocial\\site-projetosocial-squad5\\site-projetosocial-squad5.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\OneDrive\\Área de Trabalho\\ProjetoSocial\\Squad-5_Projeto-Social-RecodePro\\Recode-Pro-Squad-5-ProjetoSocial\\site-projetosocial-squad5\\site-projetosocial-squad5.csproj": {
+    "C:\\Users\\PC\\Source\\Repos\\Squad-5_Projeto-Social-RecodePro\\Recode-Pro-Squad-5-ProjetoSocial\\site-projetosocial-squad5\\site-projetosocial-squad5.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\OneDrive\\Área de Trabalho\\ProjetoSocial\\Squad-5_Projeto-Social-RecodePro\\Recode-Pro-Squad-5-ProjetoSocial\\site-projetosocial-squad5\\site-projetosocial-squad5.csproj",
+        "projectUniqueName": "C:\\Users\\PC\\Source\\Repos\\Squad-5_Projeto-Social-RecodePro\\Recode-Pro-Squad-5-ProjetoSocial\\site-projetosocial-squad5\\site-projetosocial-squad5.csproj",
         "projectName": "site-projetosocial-squad5",
-        "projectPath": "C:\\Users\\User\\OneDrive\\Área de Trabalho\\ProjetoSocial\\Squad-5_Projeto-Social-RecodePro\\Recode-Pro-Squad-5-ProjetoSocial\\site-projetosocial-squad5\\site-projetosocial-squad5.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\OneDrive\\Área de Trabalho\\ProjetoSocial\\Squad-5_Projeto-Social-RecodePro\\Recode-Pro-Squad-5-ProjetoSocial\\site-projetosocial-squad5\\obj\\",
+        "projectPath": "C:\\Users\\PC\\Source\\Repos\\Squad-5_Projeto-Social-RecodePro\\Recode-Pro-Squad-5-ProjetoSocial\\site-projetosocial-squad5\\site-projetosocial-squad5.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PC\\Source\\Repos\\Squad-5_Projeto-Social-RecodePro\\Recode-Pro-Squad-5-ProjetoSocial\\site-projetosocial-squad5\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -73,12 +69,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[5.0.13, 5.0.13]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -87,7 +77,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

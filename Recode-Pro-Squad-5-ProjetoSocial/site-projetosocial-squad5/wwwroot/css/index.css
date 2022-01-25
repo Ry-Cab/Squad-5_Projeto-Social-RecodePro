@@ -101,7 +101,7 @@
 #tituloDepo h1{
   
     font-family: 'Heavitas';
-    font-size: 80px;
+    font-size: 50px;
     text-align: center;
     padding-top: 10px;
     color: black;
@@ -201,9 +201,5 @@ form input[type=submit]:hover{
 
   #boxDepoimento{
     width: 850px;
-  }
-
-  #tituloDepo h1 {
-      font-size: 50px;
   }
 }
