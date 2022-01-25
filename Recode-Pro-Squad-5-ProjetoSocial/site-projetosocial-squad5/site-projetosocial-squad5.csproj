@@ -3,6 +3,7 @@
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
     <RootNamespace>site_projetosocial_squad5</RootNamespace>
+    <UserSecretsId>c3d6266b-33d9-45f7-ad31-495d6e04a413</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
@@ -14,5 +15,6 @@
     </PackageReference>
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="5.0.2" />
   </ItemGroup>
+
 
 </Project>
