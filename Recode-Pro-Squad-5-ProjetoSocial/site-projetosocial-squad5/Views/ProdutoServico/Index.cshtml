@@ -13,12 +13,13 @@
             flex-wrap: wrap;
         }
         section{
-            margin: 5%;
+            margin: auto;
+            
         }
-    </style>
+</style>
 
 
-<main class="container">
+<main>
     
           <div><h1 class="tituloProdutos">Produtos e Serviços</h1></div>                  
                 
@@ -26,15 +27,19 @@
 @foreach (var item in Model){
     <div class="card" style="width: 18rem;">
     <div class="card-body">
-    <h5 class="card-title">@item.nome_produtoServico</h5>
+    <span class="span_item">@item.tipo_produtoServico</span>
+    <h2 class="card-title">@item.nome_produtoServico</h2>
     <h6 class="card-subtitle mb-2 text-muted">@item.nomeNegocio_autonoma</h6>
-    <p class="card-text">@item.descricao_produtoServico</p>
-    <p class="card-text">@item.preco_produtoServico</p>
+    <p class="card-text"><strong>R$@item.preco_produtoServico</strong></p>
     
-    <a class="a_produtos" asp-action="Details" asp-route-id="@item.id_produtoServico">Ver Mais </a>|
-    <a class="a_produtos" asp-action="Contatar" asp-controller="Autonoma" asp-route-id="@item.FK_id_autonoma">Contatar </a>|
-    <a class="a_produtos" href="https://forms.gle/TYqWfbTQcKdGdQcN6" target="_blank">Afiliar-Se</a>
-  
+    <div class="div_botoes">
+    <button class="btn btn-primary">
+            <a class="a_produtos" asp-action="Details" asp-route-id="@item.id_produtoServico">Ver Mais</a>
+    </button>
+    <button class="btn btn-success">
+        <a class="a_produtos" asp-action="Contatar" asp-controller="Autonoma" asp-route-id="@item.FK_id_autonoma">Contatar</a>
+    </button>
+    </div>
   </div>
 </div>
 }

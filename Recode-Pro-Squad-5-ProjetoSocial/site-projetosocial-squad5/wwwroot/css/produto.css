@@ -1,4 +1,22 @@
+.div_botoes{
+  display: flex;
+}
 
+.btn > a {
+  color: white;
+}
+
+.btn{
+  margin-right: 2px;
+}
+
+.span_item{
+  border: 1px solid black;
+  color: black;
+  font-size: 13px;
+  padding: 1px;
+  border-radius: 3px;
+}
 
 .tituloProdutos{
     text-align: center;
