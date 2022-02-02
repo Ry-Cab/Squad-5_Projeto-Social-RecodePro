@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Users\\Sweetener\\Documents\\Repositorio-Squad5\\Recode-Pro-Squad-5-ProjetoSocial\\site-projetosocial-squad5\\site-projetosocial-squad5.csproj": {}
   },
   "projects": {
@@ -20,6 +21,22 @@
         "configFilePaths": [
           "C:\\Users\\Sweetener\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+=======
+    "C:\\Users\\PC\\Source\\Repos\\Squad-5_Projeto-Social-RecodePro\\Recode-Pro-Squad-5-ProjetoSocial\\site-projetosocial-squad5\\site-projetosocial-squad5.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\PC\\Source\\Repos\\Squad-5_Projeto-Social-RecodePro\\Recode-Pro-Squad-5-ProjetoSocial\\site-projetosocial-squad5\\site-projetosocial-squad5.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\PC\\Source\\Repos\\Squad-5_Projeto-Social-RecodePro\\Recode-Pro-Squad-5-ProjetoSocial\\site-projetosocial-squad5\\site-projetosocial-squad5.csproj",
+        "projectName": "site-projetosocial-squad5",
+        "projectPath": "C:\\Users\\PC\\Source\\Repos\\Squad-5_Projeto-Social-RecodePro\\Recode-Pro-Squad-5-ProjetoSocial\\site-projetosocial-squad5\\site-projetosocial-squad5.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PC\\Source\\Repos\\Squad-5_Projeto-Social-RecodePro\\Recode-Pro-Squad-5-ProjetoSocial\\site-projetosocial-squad5\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> 1bc2eeaf87165f556f46a803786862f53e00de88
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -82,7 +99,11 @@
               "privateAssets": "all"
             }
           },
+<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+=======
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+>>>>>>> 1bc2eeaf87165f556f46a803786862f53e00de88
         }
       }
     }

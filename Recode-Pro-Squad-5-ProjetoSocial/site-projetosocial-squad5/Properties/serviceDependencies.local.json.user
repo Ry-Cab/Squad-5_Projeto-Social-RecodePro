@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "restored": true,
+      "restoreTime": "2022-01-21T21:05:27.951558Z"
+    },
+    "secrets1": {
+      "restored": true,
+      "restoreTime": "2022-01-21T21:04:57.9556174Z"
+    }
+  },
+  "parameters": {
+    "mssql1.subscriptionId": {
+      "Name": "mssql1.subscriptionId",
+      "Type": "subscription",
+      "Value": "e450de3a-91db-4b89-95c3-0ed14875201b"
+    },
+    "mssql1.resourceGroupName": {
+      "Name": "mssql1.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "Mariserver"
+    }
+  }
+}

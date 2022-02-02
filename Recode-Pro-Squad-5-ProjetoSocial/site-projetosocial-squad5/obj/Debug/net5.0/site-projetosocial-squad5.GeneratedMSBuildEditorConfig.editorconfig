@@ -7,4 +7,8 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = site_projetosocial_squad5
+<<<<<<< HEAD
 build_property.ProjectDir = C:\Users\Sweetener\Documents\Repositorio-Squad5\Recode-Pro-Squad-5-ProjetoSocial\site-projetosocial-squad5\
+=======
+build_property.ProjectDir = C:\Users\PC\source\repos\Squad-5_Projeto-Social-RecodePro\Recode-Pro-Squad-5-ProjetoSocial\site-projetosocial-squad5\
+>>>>>>> 1bc2eeaf87165f556f46a803786862f53e00de88

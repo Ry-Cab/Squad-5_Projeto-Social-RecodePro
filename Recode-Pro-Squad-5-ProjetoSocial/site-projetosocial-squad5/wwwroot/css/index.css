@@ -94,14 +94,14 @@
 }
 
 #tituloDepo{
-  height: 80px;
+  height: auto;
   
 }
 
 #tituloDepo h1{
   
     font-family: 'Heavitas';
-    font-size: 80px;
+    font-size: 50px;
     text-align: center;
     padding-top: 10px;
     color: black;
@@ -110,6 +110,7 @@
 #textoDepo{
   font-size: 15pt;
   padding: 10px;
+  height:auto;
 
 }
 
@@ -174,6 +175,10 @@ form input[type=submit]:hover{
 @media (min-width: 600px){
   .texto{
     font-size: 20px;
+  }
+
+  #tituloDepo {
+      font-size: 50px;
   }
   
   .sobrenos{
